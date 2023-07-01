@@ -1,0 +1,53 @@
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+  height:80vh;
+}
+#refresh-btn{
+  padding: 10%;
+  font-weight: bold;
+  color: black;
+  background-color: pink;
+  height: fit-content;
+  width: fit-content;
+}
+h1{
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 7px 1px black;
+}
+.bg-pink{
+  background: pink;
+}
+button{
+  color: #9d1580;
+  font-size: larger;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px 1px black;
+}
+body{
+  /* background-image: url("https://thumbs.gfycat.com/EmbellishedTatteredLadybug-size_restricted.gif") !important; */
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(80,92,238,1) 9%, rgba(93,90,228,1) 16%, rgba(114,87,212,1) 27%, rgba(137,84,195,1) 39%, rgba(154,82,182,1) 48%, rgba(179,79,163,1) 61%, rgba(205,76,143,1) 75%, rgba(226,73,127,1) 86%, rgba(237,72,118,1) 92%, rgba(252,70,107,1) 100%);
+}
+
+button:hover{
+  background-color: #eab3de;
+}
+#cover{
+  background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  /* background-image: url("https://i.gifer.com/5Q17.gif"); */
+  height: fit-content;
+  /* background-color: #cd9d6f; */
+  padding: 5%;
+  border-radius: 10px;
+  /* text-align: center; */
+  text-align: -webkit-center;
+  box-shadow: 5px 5px 7px 1px;
+}
+
